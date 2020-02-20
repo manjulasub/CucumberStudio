@@ -1,8 +1,8 @@
 Feature: Sprint2
- This feature file holds Sprint2 USs for Account Hub
+ This feature file holds Sprint2 US
  
 @all @sp2
-Scenario Outline: AH_Sales_MaintainAccountRelationships_US464_TC01_TC02_TC_03
+Scenario Outline: Sales_MaintainAccountRelationships_US464_TC01_TC02_TC_03
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates New Account
@@ -13,7 +13,7 @@ Scenario Outline: AH_Sales_MaintainAccountRelationships_US464_TC01_TC02_TC_03
 	|TestData_01|
 	
 @all @sp2
-Scenario Outline: AH_Sales_MaintainTypeFieldInfo_US462_TC01_TC02_TC_04_TC_05
+Scenario Outline: Sales_MaintainTypeFieldInfo_US462_TC01_TC02_TC_04_TC_05
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And Validate Account Type in New Account Page
@@ -25,7 +25,7 @@ Scenario Outline: AH_Sales_MaintainTypeFieldInfo_US462_TC01_TC02_TC_04_TC_05
 	
 	
 @all @sp2
-Scenario Outline: AH_CLM_CreationOfMSAAgreementFromOpportunity_US309
+Scenario Outline: CLM_CreationOfMSAAgreementFromOpportunity_US309
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User generates agreement documents in selected formats
@@ -38,7 +38,7 @@ Examples:
 	
 	
 @all @sp2
-Scenario Outline: AH_CLM_SendMSAAgreementForReview_US313
+Scenario Outline: CLM_SendMSAAgreementForReview_US313
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User generates agreement documents in selected formats
@@ -49,7 +49,7 @@ Examples:
 	|TestData_01|
 	
 @all @sp2 
-Scenario Outline: AH_CPQ_DefaultPriceListQuote_US345
+Scenario Outline: CPQ_DefaultPriceListQuote_US345
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates an Opportunity
@@ -60,7 +60,7 @@ Examples:
 	|TestData_01|	
 	
 @all @sp2 
-Scenario Outline: AH_CPQ_GenerateBudgetaryQuote_US275
+Scenario Outline: CPQ_GenerateBudgetaryQuote_US275
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And  Search for an Existing Quote
@@ -73,7 +73,7 @@ Examples:
 	
 	
 @all @sp2
-Scenario Outline: AH_CLM_GenerateDocuments_US242_US312_US310
+Scenario Outline: CLM_GenerateDocuments_US242_US312_US310
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User generates agreement documents in selected formats
@@ -84,7 +84,7 @@ Examples:
 	
 		
 @all @sp2
-Scenario Outline: AH_Sales_ValidatePrimaryContact_US269
+Scenario Outline: Sales_ValidatePrimaryContact_US269
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates New Account
@@ -96,7 +96,7 @@ Examples:
 
 
 @all @sp2
-Scenario Outline: AH_Sales_ValidatePrimaryContactAfterLeadConversion_US269
+Scenario Outline: Sales_ValidatePrimaryContactAfterLeadConversion_US269
 	Given Navigate to Salesforce SIT Loginpage
 	And Login to Salesforce SIT Loginpage
 	And User creates New Lead
