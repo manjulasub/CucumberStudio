@@ -7,6 +7,7 @@ Scenario Outline: CLM_CreationOfAgreementFromOpportunity_US232
 	When Login to Salesforce SIT Loginpage
 	And User creates an Opportunity
 	Then Create an Agreement for an Opportunity
+	And logout
 	
 Examples:
 	|TestData  |
