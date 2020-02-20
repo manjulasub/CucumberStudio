@@ -1,8 +1,8 @@
-Feature: OneWeb
- This feature file holds Sprint3 USs for Account Hub
+Feature: OWDemo
+ This feature file holds Sprint3 US
  
 @all @sp3
-Scenario Outline: AH_Sales_CreateEndCustomerOpportunity
+Scenario Outline: Sales_CreateEndCustomerOpportunity
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	Then User creates an End Customer Opportunity and verifies statuses
@@ -13,7 +13,7 @@ Examples:
 
 	
 @all @sp3
-Scenario Outline: AH_CPQ_GeneratingBudgetaryDocumentWithAvailableTemplate_US274
+Scenario Outline: CPQ_GeneratingBudgetaryDocumentWithAvailableTemplate_US274
 	Given Navigate to Salesforce SIT Loginpage
 	When Login to Salesforce SIT Loginpage
 	And User creates an Opportunity
